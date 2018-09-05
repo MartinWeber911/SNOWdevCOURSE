@@ -2,6 +2,7 @@ var insertIncident = new GlideRecord('incident');
 
 var elementName = 'short_description'; 
 var gr2 = new GlideRecord('incident');
+var test = "test"
 gr2.addQuery('number', "INC0010015");
 gr2.query(); 
 while (gr2.next()) { 
